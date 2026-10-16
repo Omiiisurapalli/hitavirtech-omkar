@@ -1,0 +1,10 @@
+cp /c/hitavirtech_omkar/hitavirtech-omkar/omkar/data/src*.csv /c/hitavirtech_omkar/hitavirtech-omkar/omkar/data/tgt#!/bin/bash
+
+SOURCE="/c/hitavirtech_omkar/hitavirtech-omkar/hitavirtech-omkar/omkar/data/src"
+TARGET="/c/hitavirtech_omkar/hitavirtech-omkar/hitavirtech-omkar/omkar/data/target"
+
+mkdir -p "$TARGET"
+
+cp "$SOURCE"/*.csv "$TARGET"/
+
+echo "CSV files copied successfully!"
